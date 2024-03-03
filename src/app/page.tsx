@@ -1,3 +1,13 @@
+import Image from "next/image";
+import Germany from "./assets/germany.png";
+import USA from "./assets/usa.png";
+import Brazil from "./assets/brazil.png";
+import Iceland from "./assets/iceland.png";
+import Afghanistan from "./assets/afghanistan.png";
+import Islands from "./assets/islands.png";
+import Albania from "./assets/albania.png";
+import Algeria from "./assets/algeria.png";
+
 export default function Home() {
   return (
     <div className="">
@@ -27,13 +37,8 @@ export default function Home() {
         </div>
       </div>
       <div className="flex items-center justify-between">
-        <div className="border w-1/5 rounded-lg">
-          <img
-            className="rounded-t-lg"
-            src="https://www.countryflags.com/wp-content/uploads/germany-flag-png-large.png"
-            alt=""
-            width="100%"
-          />
+        <div className="shadow-lg w-1/5 rounded-lg">
+          <Image src={Germany} alt="" width="300" />
           <h3 className="text-lg font-extrabold my-2 mx-3">Germany</h3>
           <div className="text-sm flex items-center justify-left mx-3">
             <p className="font-semibold my-1">Population:</p>
@@ -49,12 +54,7 @@ export default function Home() {
           </div>
         </div>
         <div className="shadow-lg w-1/5 rounded-lg">
-          <img
-            className="rounded-t-lg"
-            src="https://www.countryflags.com/wp-content/uploads/united-states-of-america-flag-png-large.png"
-            alt=""
-            width="100%"
-          />
+          <Image src={USA} alt="" width="300" />
           <h3 className="text-lg font-extrabold my-2 mx-3 dark:text-white">
             United States of America
           </h3>
@@ -72,12 +72,7 @@ export default function Home() {
           </div>
         </div>
         <div className="shadow-lg w-1/5 rounded-lg">
-          <img
-            className="rounded-t-lg"
-            src="https://www.countryflags.com/wp-content/uploads/brazil-flag-png-large.png"
-            alt=""
-            width="100%"
-          />
+          <Image src={Brazil} alt="" width="300" />
           <h3 className="text-lg font-extrabold my-2 mx-3 dark:text-white">
             Brazil
           </h3>
@@ -95,12 +90,7 @@ export default function Home() {
           </div>
         </div>
         <div className="shadow-lg w-1/5 rounded-lg">
-          <img
-            className="rounded-t-lg"
-            src="https://www.countryflags.com/wp-content/uploads/iceland-flag-png-large.png"
-            alt=""
-            width="100%"
-          />
+          <Image src={Iceland} alt="" width="300" />
           <h3 className="text-lg font-extrabold my-2 mx-3 dark:text-white">
             Iceland
           </h3>
@@ -120,12 +110,7 @@ export default function Home() {
       </div>
       <div className="flex items-center justify-between my-10">
         <div className="shadow-lg w-1/5 rounded-lg">
-          <img
-            className="rounded-t-lg"
-            src="https://www.countryflags.com/wp-content/uploads/flag-jpg-xl-1-2048x1365.jpg"
-            alt=""
-            width="100%"
-          />
+          <Image src={Afghanistan} alt="" width="300" />
           <h3 className="text-lg font-extrabold my-2 mx-3 dark:text-white">
             Afghanistan
           </h3>
@@ -143,12 +128,7 @@ export default function Home() {
           </div>
         </div>
         <div className="shadow-lg w-1/5 rounded-lg">
-          <img
-            className="rounded-t-lg"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Flag_of_%C3%85land.svg/1200px-Flag_of_%C3%85land.svg.png"
-            alt=""
-            width="100%"
-          />
+          <Image src={Islands} alt="" width="300" />
           <h3 className="text-lg font-extrabold my-2 mx-3 dark:text-white">
             Aland Islands
           </h3>
@@ -166,12 +146,7 @@ export default function Home() {
           </div>
         </div>
         <div className="shadow-lg w-1/5 rounded-lg">
-          <img
-            className="rounded-t-lg"
-            src="https://www.countryflags.com/wp-content/uploads/albania-albanian-flag-png-square-large.png"
-            alt=""
-            width="100%"
-          />
+          <Image src={Albania} alt="" width="300" />
           <h3 className="text-lg font-extrabold my-2 mx-3 dark:text-white">
             Albania
           </h3>
@@ -189,12 +164,7 @@ export default function Home() {
           </div>
         </div>
         <div className="shadow-lg w-1/5 rounded-lg">
-          <img
-            className="rounded-t-lg"
-            src="https://www.countryflags.com/wp-content/uploads/flag-jpg-xl-3-2048x1365.jpg"
-            alt=""
-            width="100%"
-          />
+          <Image src={Algeria} alt="" width="300" />
           <h3 className="text-lg font-extrabold my-2 mx-3 dark:text-white">
             Algeria
           </h3>
