@@ -10,21 +10,24 @@ import Algeria from "./assets/algeria.png";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <div className="flex items-center justify-between py-10">
         <form action="">
           <input
-            className="shadow-md border px-10 py-3"
+            className="shadow-md border px-10 py-3 dark:bg-gray-700 dark:border-none dark:text-white"
             type="text"
             placeholder="Search for a country..."
           />
         </form>
         <div>
-          <label className="mx-4 text-sm font-normal" htmlFor="region">
+          <label
+            className="mx-4 text-sm font-normal dark:text-white"
+            htmlFor="region"
+          >
             Filter by Region:
           </label>
           <select
-            className="border px-5 py-3 text-sm font-normal"
+            className="border px-5 py-3 text-sm font-normal dark:bg-gray-700 dark:text-white dark:border-none"
             name="region"
             id="region"
           >
@@ -37,23 +40,25 @@ export default function Home() {
         </div>
       </div>
       <div className="flex items-center justify-between">
-        <div className="shadow-lg w-1/5 rounded-lg">
+        <div className="shadow-lg w-1/5 rounded-lg dark:bg-gray-700 cursor-pointer">
           <Image src={Germany} alt="" width="300" />
-          <h3 className="text-lg font-extrabold my-2 mx-3">Germany</h3>
-          <div className="text-sm flex items-center justify-left mx-3">
+          <h3 className="text-lg font-extrabold my-2 mx-3 dark:text-white">
+            Germany
+          </h3>
+          <div className="text-sm flex items-center justify-left mx-3 dark:text-white">
             <p className="font-semibold my-1">Population:</p>
             <p className="font-light mx-2">81,770,900</p>
           </div>
-          <div className="text-sm flex items-center justify-left mx-3">
+          <div className="text-sm flex items-center justify-left mx-3 dark:text-white">
             <p className="font-semibold my-1">Region:</p>
             <p className="font-light mx-2">Europe</p>
           </div>
-          <div className="text-sm flex items-center justify-left mx-3">
+          <div className="text-sm flex items-center justify-left mx-3 dark:text-white">
             <p className="font-semibold my-1">Capital:</p>
             <p className="font-light mx-2">Berlin</p>
           </div>
         </div>
-        <div className="shadow-lg w-1/5 rounded-lg">
+        <div className="shadow-lg w-1/5 rounded-lg dark:bg-gray-700 cursor-pointer">
           <Image src={USA} alt="" width="300" />
           <h3 className="text-lg font-extrabold my-2 mx-3 dark:text-white">
             United States of America
@@ -71,7 +76,7 @@ export default function Home() {
             <p className="font-light mx-2">Washington</p>
           </div>
         </div>
-        <div className="shadow-lg w-1/5 rounded-lg">
+        <div className="shadow-lg w-1/5 rounded-lg dark:bg-gray-700 cursor-pointer">
           <Image src={Brazil} alt="" width="300" />
           <h3 className="text-lg font-extrabold my-2 mx-3 dark:text-white">
             Brazil
@@ -89,7 +94,7 @@ export default function Home() {
             <p className="font-light mx-2">Brasilia</p>
           </div>
         </div>
-        <div className="shadow-lg w-1/5 rounded-lg">
+        <div className="shadow-lg w-1/5 rounded-lg dark:bg-gray-700 cursor-pointer">
           <Image src={Iceland} alt="" width="300" />
           <h3 className="text-lg font-extrabold my-2 mx-3 dark:text-white">
             Iceland
@@ -108,8 +113,8 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-between my-10">
-        <div className="shadow-lg w-1/5 rounded-lg">
+      <div className="flex items-center justify-between py-10">
+        <div className="shadow-lg w-1/5 rounded-lg dark:bg-gray-700 cursor-pointer">
           <Image src={Afghanistan} alt="" width="300" />
           <h3 className="text-lg font-extrabold my-2 mx-3 dark:text-white">
             Afghanistan
@@ -127,7 +132,7 @@ export default function Home() {
             <p className="font-light mx-2">Kabul</p>
           </div>
         </div>
-        <div className="shadow-lg w-1/5 rounded-lg">
+        <div className="shadow-lg w-1/5 rounded-lg dark:bg-gray-700 cursor-pointer">
           <Image src={Islands} alt="" width="300" />
           <h3 className="text-lg font-extrabold my-2 mx-3 dark:text-white">
             Aland Islands
@@ -145,7 +150,7 @@ export default function Home() {
             <p className="font-light mx-2">Mariehamn</p>
           </div>
         </div>
-        <div className="shadow-lg w-1/5 rounded-lg">
+        <div className="shadow-lg w-1/5 rounded-lg dark:bg-gray-700 cursor-pointer">
           <Image src={Albania} alt="" width="300" />
           <h3 className="text-lg font-extrabold my-2 mx-3 dark:text-white">
             Albania
@@ -163,7 +168,7 @@ export default function Home() {
             <p className="font-light mx-2">Tirana</p>
           </div>
         </div>
-        <div className="shadow-lg w-1/5 rounded-lg">
+        <div className="shadow-lg w-1/5 rounded-lg dark:bg-gray-700 cursor-pointer">
           <Image src={Algeria} alt="" width="300" />
           <h3 className="text-lg font-extrabold my-2 mx-3 dark:text-white">
             Algeria

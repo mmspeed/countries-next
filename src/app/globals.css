@@ -26,5 +26,6 @@ body {
   }
 }
 
-main {
+* {
+  @apply transition-colors duration-200;
 }
